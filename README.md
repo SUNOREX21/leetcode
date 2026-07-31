@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1622-fancy-sequence](https://github.com/das-cyber428/leetcode/tree/master/1622-fancy-sequence) |
+| [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/das-cyber428/leetcode/tree/master/1878-get-biggest-three-rhombus-sums-in-a-grid) |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/das-cyber428/leetcode/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
 ## String
 |  |
@@ -28,10 +29,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1582-special-positions-in-a-binary-matrix](https://github.com/das-cyber428/leetcode/tree/master/1582-special-positions-in-a-binary-matrix) |
+| [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/das-cyber428/leetcode/tree/master/1878-get-biggest-three-rhombus-sums-in-a-grid) |
 ## Matrix
 |  |
 | ------- |
 | [1582-special-positions-in-a-binary-matrix](https://github.com/das-cyber428/leetcode/tree/master/1582-special-positions-in-a-binary-matrix) |
+| [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/das-cyber428/leetcode/tree/master/1878-get-biggest-three-rhombus-sums-in-a-grid) |
 ## Design
 |  |
 | ------- |
@@ -44,4 +47,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1622-fancy-sequence](https://github.com/das-cyber428/leetcode/tree/master/1622-fancy-sequence) |
+## Sorting
+|  |
+| ------- |
+| [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/das-cyber428/leetcode/tree/master/1878-get-biggest-three-rhombus-sums-in-a-grid) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/das-cyber428/leetcode/tree/master/1878-get-biggest-three-rhombus-sums-in-a-grid) |
+## Prefix Sum
+|  |
+| ------- |
+| [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/das-cyber428/leetcode/tree/master/1878-get-biggest-three-rhombus-sums-in-a-grid) |
 <!---LeetCode Topics End-->
