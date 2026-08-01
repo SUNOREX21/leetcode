@@ -32,12 +32,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1582-special-positions-in-a-binary-matrix](https://github.com/das-cyber428/leetcode/tree/master/1582-special-positions-in-a-binary-matrix) |
 | [1727-largest-submatrix-with-rearrangements](https://github.com/das-cyber428/leetcode/tree/master/1727-largest-submatrix-with-rearrangements) |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/das-cyber428/leetcode/tree/master/1878-get-biggest-three-rhombus-sums-in-a-grid) |
+| [3070-count-submatrices-with-top-left-element-and-sum-less-than-k](https://github.com/das-cyber428/leetcode/tree/master/3070-count-submatrices-with-top-left-element-and-sum-less-than-k) |
 ## Matrix
 |  |
 | ------- |
 | [1582-special-positions-in-a-binary-matrix](https://github.com/das-cyber428/leetcode/tree/master/1582-special-positions-in-a-binary-matrix) |
 | [1727-largest-submatrix-with-rearrangements](https://github.com/das-cyber428/leetcode/tree/master/1727-largest-submatrix-with-rearrangements) |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/das-cyber428/leetcode/tree/master/1878-get-biggest-three-rhombus-sums-in-a-grid) |
+| [3070-count-submatrices-with-top-left-element-and-sum-less-than-k](https://github.com/das-cyber428/leetcode/tree/master/3070-count-submatrices-with-top-left-element-and-sum-less-than-k) |
 ## Design
 |  |
 | ------- |
@@ -63,4 +65,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/das-cyber428/leetcode/tree/master/1878-get-biggest-three-rhombus-sums-in-a-grid) |
+| [3070-count-submatrices-with-top-left-element-and-sum-less-than-k](https://github.com/das-cyber428/leetcode/tree/master/3070-count-submatrices-with-top-left-element-and-sum-less-than-k) |
 <!---LeetCode Topics End-->
