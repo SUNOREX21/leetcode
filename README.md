@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1406-stone-game-iii](https://github.com/das-cyber428/leetcode/tree/master/1406-stone-game-iii) |
+| [1510-stone-game-iv](https://github.com/das-cyber428/leetcode/tree/master/1510-stone-game-iv) |
 | [1622-fancy-sequence](https://github.com/das-cyber428/leetcode/tree/master/1622-fancy-sequence) |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/das-cyber428/leetcode/tree/master/1878-get-biggest-three-rhombus-sums-in-a-grid) |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/das-cyber428/leetcode/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
@@ -100,20 +101,24 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1406-stone-game-iii](https://github.com/das-cyber428/leetcode/tree/master/1406-stone-game-iii) |
+| [1510-stone-game-iv](https://github.com/das-cyber428/leetcode/tree/master/1510-stone-game-iv) |
 | [1594-maximum-non-negative-product-in-a-matrix](https://github.com/das-cyber428/leetcode/tree/master/1594-maximum-non-negative-product-in-a-matrix) |
 | [3130-find-all-possible-stable-binary-arrays-ii](https://github.com/das-cyber428/leetcode/tree/master/3130-find-all-possible-stable-binary-arrays-ii) |
 ## Minimax
 |  |
 | ------- |
 | [1406-stone-game-iii](https://github.com/das-cyber428/leetcode/tree/master/1406-stone-game-iii) |
+| [1510-stone-game-iv](https://github.com/das-cyber428/leetcode/tree/master/1510-stone-game-iv) |
 ## Game Theory
 |  |
 | ------- |
 | [1406-stone-game-iii](https://github.com/das-cyber428/leetcode/tree/master/1406-stone-game-iii) |
+| [1510-stone-game-iv](https://github.com/das-cyber428/leetcode/tree/master/1510-stone-game-iv) |
 ## Zero-Sum Game
 |  |
 | ------- |
 | [1406-stone-game-iii](https://github.com/das-cyber428/leetcode/tree/master/1406-stone-game-iii) |
+| [1510-stone-game-iv](https://github.com/das-cyber428/leetcode/tree/master/1510-stone-game-iv) |
 ## Hash Table
 |  |
 | ------- |
@@ -127,4 +132,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/das-cyber428/leetcode/tree/master/3296-minimum-number-of-seconds-to-make-mountain-height-zero) |
+## Nim Game
+|  |
+| ------- |
+| [1510-stone-game-iv](https://github.com/das-cyber428/leetcode/tree/master/1510-stone-game-iv) |
+## Sprague–Grundy Theorem
+|  |
+| ------- |
+| [1510-stone-game-iv](https://github.com/das-cyber428/leetcode/tree/master/1510-stone-game-iv) |
 <!---LeetCode Topics End-->
