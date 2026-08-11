@@ -1,0 +1,1 @@
+class Solution { public int missingInteger(int[] nums) { int s = nums[0]; for (int i = 1; i < nums.length && nums[i] == nums[i-1] + 1; i++) s += nums[i]; boolean[] seen = new boolean[3000]; for (int v : nums) seen[v] = true; int x = s; while (seen[x]) x++; return x; } }
