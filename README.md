@@ -151,4 +151,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/das-cyber428/leetcode/tree/master/0004-median-of-two-sorted-arrays) |
+## Fermat's Little Theorem
+|  |
+| ------- |
+| [1622-fancy-sequence](https://github.com/das-cyber428/leetcode/tree/master/1622-fancy-sequence) |
 <!---LeetCode Topics End-->
