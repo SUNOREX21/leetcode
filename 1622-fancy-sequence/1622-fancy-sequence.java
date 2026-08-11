@@ -1,1 +1,39 @@
-class Fancy { private static final int MOD = 1000000007; private java.util.List<Long> seq = new java.util.ArrayList<>(); private long mult = 1; private long add = 0; public Fancy() { } public void append(int val) { long invMult = modPow(mult, MOD - 2, MOD); long normalized = ((val - add) % MOD + MOD) % MOD; normalized = (normalized * invMult) % MOD; seq.add(normalized); } public void addAll(int inc) { add = (add + inc) % MOD; } public void multAll(int m) { mult = (mult * m) % MOD; add = (add * m) % MOD; } public int getIndex(int idx) { if (idx >= seq.size()) return -1; long val = (seq.get(idx) * mult + add) % MOD; return (int) val; } private long modPow(long base, long exp, long mod) { base %= mod; long result = 1; while (exp > 0) { if ((exp & 1) == 1) result = (result * base) % mod; base = (base * base) % mod; exp >>= 1; } return result; } }
+class Fancy {
+    static final int MOD = 1000000007;
+    private long[] vals = new long[100005];
+    private int n = 0;
+    private long a = 1, b = 0;
+
+    public Fancy() {
+    }
+
+    public void append(int val) {
+        long v = ((val - b) % MOD + MOD) % MOD;
+        vals[n++] = v * power(a, MOD - 2) % MOD;
+    }
+
+    public void addAll(int inc) {
+        b = (b + inc) % MOD;
+    }
+
+    public void multAll(int m) {
+        a = a * m % MOD;
+        b = b * m % MOD;
+    }
+
+    public int getIndex(int idx) {
+        if (idx >= n) return -1;
+        return (int)((vals[idx] * a + b) % MOD);
+    }
+
+    private long power(long x, long y) {
+        long r = 1;
+        x %= MOD;
+        while (y > 0) {
+            if ((y & 1) == 1) r = r * x % MOD;
+            x = x * x % MOD;
+            y >>= 1;
+        }
+        return r;
+    }
+}
