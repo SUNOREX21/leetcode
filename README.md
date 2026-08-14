@@ -18,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1758-minimum-changes-to-make-alternating-binary-string](https://github.com/das-cyber428/leetcode/tree/master/1758-minimum-changes-to-make-alternating-binary-string) |
 | [1980-find-unique-binary-string](https://github.com/das-cyber428/leetcode/tree/master/1980-find-unique-binary-string) |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/das-cyber428/leetcode/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
+| [3090-maximum-length-substring-with-two-occurrences](https://github.com/das-cyber428/leetcode/tree/master/3090-maximum-length-substring-with-two-occurrences) |
 ## Greedy
 |  |
 | ------- |
@@ -128,6 +129,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [1980-find-unique-binary-string](https://github.com/das-cyber428/leetcode/tree/master/1980-find-unique-binary-string) |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/das-cyber428/leetcode/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
+| [3090-maximum-length-substring-with-two-occurrences](https://github.com/das-cyber428/leetcode/tree/master/3090-maximum-length-substring-with-two-occurrences) |
 | [3731-find-missing-elements](https://github.com/das-cyber428/leetcode/tree/master/3731-find-missing-elements) |
 ## Backtracking
 |  |
@@ -155,4 +157,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1622-fancy-sequence](https://github.com/das-cyber428/leetcode/tree/master/1622-fancy-sequence) |
+## Sliding Window
+|  |
+| ------- |
+| [3090-maximum-length-substring-with-two-occurrences](https://github.com/das-cyber428/leetcode/tree/master/3090-maximum-length-substring-with-two-occurrences) |
 <!---LeetCode Topics End-->
