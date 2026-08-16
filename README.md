@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [1140-stone-game-ii](https://github.com/das-cyber428/leetcode/tree/master/1140-stone-game-ii) |
 | [1406-stone-game-iii](https://github.com/das-cyber428/leetcode/tree/master/1406-stone-game-iii) |
 | [1510-stone-game-iv](https://github.com/das-cyber428/leetcode/tree/master/1510-stone-game-iv) |
 | [1622-fancy-sequence](https://github.com/das-cyber428/leetcode/tree/master/1622-fancy-sequence) |
@@ -37,6 +38,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/das-cyber428/leetcode/tree/master/0004-median-of-two-sorted-arrays) |
+| [1140-stone-game-ii](https://github.com/das-cyber428/leetcode/tree/master/1140-stone-game-ii) |
 | [1406-stone-game-iii](https://github.com/das-cyber428/leetcode/tree/master/1406-stone-game-iii) |
 | [1582-special-positions-in-a-binary-matrix](https://github.com/das-cyber428/leetcode/tree/master/1582-special-positions-in-a-binary-matrix) |
 | [1594-maximum-non-negative-product-in-a-matrix](https://github.com/das-cyber428/leetcode/tree/master/1594-maximum-non-negative-product-in-a-matrix) |
@@ -93,6 +95,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Prefix Sum
 |  |
 | ------- |
+| [1140-stone-game-ii](https://github.com/das-cyber428/leetcode/tree/master/1140-stone-game-ii) |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/das-cyber428/leetcode/tree/master/1878-get-biggest-three-rhombus-sums-in-a-grid) |
 | [2906-construct-product-matrix](https://github.com/das-cyber428/leetcode/tree/master/2906-construct-product-matrix) |
 | [3070-count-submatrices-with-top-left-element-and-sum-less-than-k](https://github.com/das-cyber428/leetcode/tree/master/3070-count-submatrices-with-top-left-element-and-sum-less-than-k) |
@@ -105,6 +108,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [1140-stone-game-ii](https://github.com/das-cyber428/leetcode/tree/master/1140-stone-game-ii) |
 | [1406-stone-game-iii](https://github.com/das-cyber428/leetcode/tree/master/1406-stone-game-iii) |
 | [1510-stone-game-iv](https://github.com/das-cyber428/leetcode/tree/master/1510-stone-game-iv) |
 | [1594-maximum-non-negative-product-in-a-matrix](https://github.com/das-cyber428/leetcode/tree/master/1594-maximum-non-negative-product-in-a-matrix) |
@@ -112,16 +116,19 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Minimax
 |  |
 | ------- |
+| [1140-stone-game-ii](https://github.com/das-cyber428/leetcode/tree/master/1140-stone-game-ii) |
 | [1406-stone-game-iii](https://github.com/das-cyber428/leetcode/tree/master/1406-stone-game-iii) |
 | [1510-stone-game-iv](https://github.com/das-cyber428/leetcode/tree/master/1510-stone-game-iv) |
 ## Game Theory
 |  |
 | ------- |
+| [1140-stone-game-ii](https://github.com/das-cyber428/leetcode/tree/master/1140-stone-game-ii) |
 | [1406-stone-game-iii](https://github.com/das-cyber428/leetcode/tree/master/1406-stone-game-iii) |
 | [1510-stone-game-iv](https://github.com/das-cyber428/leetcode/tree/master/1510-stone-game-iv) |
 ## Zero-Sum Game
 |  |
 | ------- |
+| [1140-stone-game-ii](https://github.com/das-cyber428/leetcode/tree/master/1140-stone-game-ii) |
 | [1406-stone-game-iii](https://github.com/das-cyber428/leetcode/tree/master/1406-stone-game-iii) |
 | [1510-stone-game-iv](https://github.com/das-cyber428/leetcode/tree/master/1510-stone-game-iv) |
 ## Hash Table
