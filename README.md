@@ -25,6 +25,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1727-largest-submatrix-with-rearrangements](https://github.com/das-cyber428/leetcode/tree/master/1727-largest-submatrix-with-rearrangements) |
+| [2091-removing-minimum-and-maximum-from-array](https://github.com/das-cyber428/leetcode/tree/master/2091-removing-minimum-and-maximum-from-array) |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/das-cyber428/leetcode/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/das-cyber428/leetcode/tree/master/3296-minimum-number-of-seconds-to-make-mountain-height-zero) |
 ## Recursion
@@ -48,6 +49,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/das-cyber428/leetcode/tree/master/1878-get-biggest-three-rhombus-sums-in-a-grid) |
 | [1886-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/das-cyber428/leetcode/tree/master/1886-determine-whether-matrix-can-be-obtained-by-rotation) |
 | [1980-find-unique-binary-string](https://github.com/das-cyber428/leetcode/tree/master/1980-find-unique-binary-string) |
+| [2091-removing-minimum-and-maximum-from-array](https://github.com/das-cyber428/leetcode/tree/master/2091-removing-minimum-and-maximum-from-array) |
 | [2751-robot-collisions](https://github.com/das-cyber428/leetcode/tree/master/2751-robot-collisions) |
 | [2906-construct-product-matrix](https://github.com/das-cyber428/leetcode/tree/master/2906-construct-product-matrix) |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/das-cyber428/leetcode/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
