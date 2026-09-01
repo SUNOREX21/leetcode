@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sun Das — Portfolio</title>
+<meta name="description" content="Sun Das — Software Engineer & Data Structures / Algorithms enthusiast. LeetCode problem-solving portfolio.">
+<style>
+  :root{
+    --bg:#0b0e14;
+    --bg-alt:#11151f;
+    --card:#151a26;
+    --border:#232a3a;
+    --text:#e7ecf5;
+    --muted:#93a0b8;
+    --accent:#5fd0ff;
+    --accent-2:#8b7bff;
+    --easy:#3fd08a;
+    --medium:#ffb84d;
+    --hard:#ff6b81;
+    --radius:14px;
+    --maxw:1000px;
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    margin:0;
+    background:
+      radial-gradient(1000px 500px at 15% -10%, rgba(95,208,255,0.10), transparent 60%),
+      radial-gradient(900px 500px at 100% 0%, rgba(139,123,255,0.10), transparent 55%),
+      var(--bg);
+    color:var(--text);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    line-height:1.6;
+  }
+  a{color:inherit;}
+  .wrap{max-width:var(--maxw);margin:0 auto;padding:0 24px;}
+
+  header.nav{
+    position:sticky;top:0;z-index:10;
+    background:rgba(11,14,20,0.75);
+    backdrop-filter:blur(10px);
+    border-bottom:1px solid var(--border);
+  }
+  .nav-inner{
+    max-width:var(--maxw);margin:0 auto;padding:16px 24px;
+    display:flex;align-items:center;justify-content:space-between;
+  }
+  .brand{font-weight:700;letter-spacing:0.02em;font-size:1.05rem;}
+  .brand span{color:var(--accent);}
+  nav ul{list-style:none;display:flex;gap:24px;margin:0;padding:0;}
+  nav a{text-decoration:none;color:var(--muted);font-size:0.92rem;transition:color .15s;}
+  nav a:hover{color:var(--text);}
+
+  .hero{padding:88px 0 56px;}
+  .eyebrow{
+    display:inline-block;font-size:0.78rem;letter-spacing:0.08em;text-transform:uppercase;
+    color:var(--accent);background:rgba(95,208,255,0.08);border:1px solid rgba(95,208,255,0.25);
+    padding:5px 12px;border-radius:999px;margin-bottom:20px;
+  }
+  h1{font-size:clamp(2.1rem,5vw,3.2rem);line-height:1.15;margin:0 0 16px;letter-spacing:-0.02em;}
+  h1 .grad{
+    background:linear-gradient(90deg,var(--accent),var(--accent-2));
+    -webkit-background-clip:text;background-clip:text;color:transparent;
+  }
+  .lede{color:var(--muted);font-size:1.08rem;max-width:640px;margin:0 0 32px;}
+  .cta{display:flex;flex-wrap:wrap;gap:12px;}
+  .btn{
+    display:inline-flex;align-items:center;gap:8px;
+    padding:11px 20px;border-radius:10px;font-size:0.92rem;font-weight:600;
+    text-decoration:none;border:1px solid transparent;transition:transform .15s, border-color .15s, background .15s;
+  }
+  .btn:hover{transform:translateY(-1px);}
+  .btn-primary{background:linear-gradient(90deg,var(--accent),var(--accent-2));color:#08101c;}
+  .btn-ghost{border-color:var(--border);color:var(--text);background:var(--card);}
+  .btn-ghost:hover{border-color:var(--accent);}
+
+  section{padding:56px 0;border-top:1px solid var(--border);}
+  h2{font-size:1.5rem;margin:0 0 8px;letter-spacing:-0.01em;}
+  .section-sub{color:var(--muted);font-size:0.95rem;margin:0 0 32px;}
+
+  .stat-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-bottom:28px;}
+  .stat-card{
+    background:var(--card);border:1px solid var(--border);border-radius:var(--radius);
+    padding:20px 18px;text-align:center;
+  }
+  .stat-num{font-size:1.9rem;font-weight:700;font-variant-numeric:tabular-nums;}
+  .stat-label{color:var(--muted);font-size:0.82rem;margin-top:4px;text-transform:uppercase;letter-spacing:0.04em;}
+  .stat-easy{color:var(--easy);}
+  .stat-medium{color:var(--medium);}
+  .stat-hard{color:var(--hard);}
+
+  .bar-row{display:flex;align-items:center;gap:12px;margin-bottom:10px;font-size:0.88rem;}
+  .bar-label{width:70px;color:var(--muted);flex-shrink:0;}
+  .bar-track{flex:1;height:10px;border-radius:999px;background:var(--bg-alt);overflow:hidden;border:1px solid var(--border);}
+  .bar-fill{height:100%;border-radius:999px;width:0%;transition:width 1s ease;}
+  .bar-count{width:34px;text-align:right;color:var(--muted);font-variant-numeric:tabular-nums;}
+
+  .tags{display:flex;flex-wrap:wrap;gap:8px;}
+  .tag{
+    font-size:0.82rem;color:var(--text);background:var(--card);border:1px solid var(--border);
+    padding:6px 13px;border-radius:999px;
+  }
+
+  .grid-2{display:grid;grid-template-columns:1fr 1fr;gap:16px;}
+  .card{
+    background:var(--card);border:1px solid var(--border);border-radius:var(--radius);
+    padding:20px;transition:border-color .15s, transform .15s;
+  }
+  .card:hover{border-color:var(--accent);transform:translateY(-2px);}
+  .card-top{display:flex;justify-content:space-between;align-items:flex-start;gap:10px;margin-bottom:8px;}
+  .card h3{font-size:1rem;margin:0;}
+  .card a.card-link{text-decoration:none;}
+  .diff-pill{font-size:0.72rem;font-weight:700;padding:3px 9px;border-radius:999px;flex-shrink:0;text-transform:uppercase;letter-spacing:0.03em;}
+  .diff-easy{color:var(--easy);background:rgba(63,208,138,0.12);}
+  .diff-medium{color:var(--medium);background:rgba(255,184,77,0.12);}
+  .diff-hard{color:var(--hard);background:rgba(255,107,129,0.12);}
+  .card p{color:var(--muted);font-size:0.86rem;margin:0;}
+
+  .skills{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:16px;}
+  .skill-card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:18px 20px;}
+  .skill-card h4{margin:0 0 10px;font-size:0.9rem;color:var(--accent);}
+  .skill-card ul{margin:0;padding:0;list-style:none;color:var(--muted);font-size:0.88rem;}
+  .skill-card li{padding:3px 0;}
+
+  footer{padding:36px 0 48px;color:var(--muted);font-size:0.85rem;display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;}
+  footer a{color:var(--muted);text-decoration:none;}
+  footer a:hover{color:var(--accent);}
+
+  @media (max-width:680px){
+    .stat-grid{grid-template-columns:repeat(2,1fr);}
+    .grid-2{grid-template-columns:1fr;}
+    nav ul{gap:14px;}
+    nav a{font-size:0.82rem;}
+  }
+</style>
+</head>
+<body>
+
+<header class="nav">
+  <div class="nav-inner">
+    <div class="brand">Sun <span>Das</span></div>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#stats">Stats</a></li>
+        <li><a href="#topics">Topics</a></li>
+        <li><a href="#problems">Problems</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <section class="hero" id="about">
+    <span class="eyebrow">Software Engineer · DSA Enthusiast</span>
+    <h1>Hi, I'm <span class="grad">Sun Das</span>.<br>I build clean solutions to hard problems.</h1>
+    <p class="lede">
+      I'm a software engineer who enjoys breaking down algorithmic problems into
+      simple, efficient code. This portfolio doubles as my running log of
+      LeetCode practice — dynamic programming, matrices, greedy strategies, and
+      game theory, all solved in Java and tracked in this repository.
+    </p>
+    <div class="cta">
+      <a class="btn btn-primary" href="#problems">View solved problems</a>
+      <a class="btn btn-ghost" href="https://github.com/das-cyber428/leetcode" target="_blank" rel="noopener">GitHub repo ↗</a>
+    </div>
+  </section>
+
+  <section id="stats">
+    <h2>LeetCode Progress</h2>
+    <p class="section-sub">Live counts, pulled from <code>stats.json</code> in this repository.</p>
+
+    <div class="stat-grid">
+      <div class="stat-card">
+        <div class="stat-num" id="stat-total">–</div>
+        <div class="stat-label">Solved</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-num stat-easy" id="stat-easy">–</div>
+        <div class="stat-label">Easy</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-num stat-medium" id="stat-medium">–</div>
+        <div class="stat-label">Medium</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-num stat-hard" id="stat-hard">–</div>
+        <div class="stat-label">Hard</div>
+      </div>
+    </div>
+
+    <div id="bars">
+      <div class="bar-row">
+        <div class="bar-label">Easy</div>
+        <div class="bar-track"><div class="bar-fill" id="fill-easy" style="background:var(--easy);"></div></div>
+        <div class="bar-count" id="count-easy">0</div>
+      </div>
+      <div class="bar-row">
+        <div class="bar-label">Medium</div>
+        <div class="bar-track"><div class="bar-fill" id="fill-medium" style="background:var(--medium);"></div></div>
+        <div class="bar-count" id="count-medium">0</div>
+      </div>
+      <div class="bar-row">
+        <div class="bar-label">Hard</div>
+        <div class="bar-track"><div class="bar-fill" id="fill-hard" style="background:var(--hard);"></div></div>
+        <div class="bar-count" id="count-hard">0</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="topics">
+    <h2>Topics Covered</h2>
+    <p class="section-sub">Patterns and concepts practiced across solved problems.</p>
+    <div class="tags">
+      <span class="tag">Array</span>
+      <span class="tag">Matrix</span>
+      <span class="tag">Dynamic Programming</span>
+      <span class="tag">Greedy</span>
+      <span class="tag">Math</span>
+      <span class="tag">String</span>
+      <span class="tag">Binary Search</span>
+      <span class="tag">Two Pointers</span>
+      <span class="tag">Sliding Window</span>
+      <span class="tag">Prefix Sum</span>
+      <span class="tag">Hash Table</span>
+      <span class="tag">Backtracking</span>
+      <span class="tag">Recursion</span>
+      <span class="tag">Sorting</span>
+      <span class="tag">Stack</span>
+      <span class="tag">Simulation</span>
+      <span class="tag">Heap (Priority Queue)</span>
+      <span class="tag">Segment Tree</span>
+      <span class="tag">Divide and Conquer</span>
+      <span class="tag">Game Theory</span>
+      <span class="tag">Minimax</span>
+      <span class="tag">Nim Game</span>
+      <span class="tag">Number Theory</span>
+      <span class="tag">Enumeration</span>
+      <span class="tag">Design</span>
+    </div>
+  </section>
+
+  <section id="problems">
+    <h2>Featured Problems</h2>
+    <p class="section-sub">A sample of solved problems — see the full set in the repository.</p>
+    <div class="grid-2">
+
+      <a class="card-link" href="https://github.com/das-cyber428/leetcode/tree/master/0004-median-of-two-sorted-arrays" target="_blank" rel="noopener">
+        <div class="card">
+          <div class="card-top"><h3>4. Median of Two Sorted Arrays</h3><span class="diff-pill diff-hard">Hard</span></div>
+          <p>Binary search &amp; divide and conquer over two sorted arrays in O(log(m+n)).</p>
+        </div>
+      </a>
+
+      <a class="card-link" href="https://github.com/das-cyber428/leetcode/tree/master/1140-stone-game-ii" target="_blank" rel="noopener">
+        <div class="card">
+          <div class="card-top"><h3>1140. Stone Game II</h3><span class="diff-pill diff-medium">Medium</span></div>
+          <p>Minimax dynamic programming with prefix sums for an optimal-play game.</p>
+        </div>
+      </a>
+
+      <a class="card-link" href="https://github.com/das-cyber428/leetcode/tree/master/1622-fancy-sequence" target="_blank" rel="noopener">
+        <div class="card">
+          <div class="card-top"><h3>1622. Fancy Sequence</h3><span class="diff-pill diff-hard">Hard</span></div>
+          <p>Lazy-propagated design using modular inverses and Fermat's Little Theorem.</p>
+        </div>
+      </a>
+
+      <a class="card-link" href="https://github.com/das-cyber428/leetcode/tree/master/1878-get-biggest-three-rhombus-sums-in-a-grid" target="_blank" rel="noopener">
+        <div class="card">
+          <div class="card-top"><h3>1878. Biggest Three Rhombus Sums</h3><span class="diff-pill diff-medium">Medium</span></div>
+          <p>Prefix-sum precomputation over a grid to sum rhombus shapes in O(1) per query.</p>
+        </div>
+      </a>
+
+      <a class="card-link" href="https://github.com/das-cyber428/leetcode/tree/master/2751-robot-collisions" target="_blank" rel="noopener">
+        <div class="card">
+          <div class="card-top"><h3>2751. Robot Collisions</h3><span class="diff-pill diff-hard">Hard</span></div>
+          <p>Stack-based simulation resolving sequential collisions by health and direction.</p>
+        </div>
+      </a>
+
+      <a class="card-link" href="https://github.com/das-cyber428/leetcode/tree/master/3734-lexicographically-smallest-palindromic-permutation-greater-than-target" target="_blank" rel="noopener">
+        <div class="card">
+          <div class="card-top"><h3>3734. Smallest Palindromic Permutation &gt; Target</h3><span class="diff-pill diff-hard">Hard</span></div>
+          <p>Two-pointer greedy construction over character counts to beat a target string.</p>
+        </div>
+      </a>
+
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills">
+      <div class="skill-card">
+        <h4>Languages</h4>
+        <ul><li>Java</li><li>JavaScript / TypeScript</li><li>HTML &amp; CSS</li></ul>
+      </div>
+      <div class="skill-card">
+        <h4>Data Structures &amp; Algorithms</h4>
+        <ul><li>Dynamic Programming</li><li>Greedy &amp; Game Theory</li><li>Trees &amp; Segment Trees</li></ul>
+      </div>
+      <div class="skill-card">
+        <h4>Tools</h4>
+        <ul><li>Git &amp; GitHub</li><li>LeetHub</li><li>VS Code</li></ul>
+      </div>
+      <div class="skill-card">
+        <h4>Practices</h4>
+        <ul><li>Problem decomposition</li><li>Complexity analysis</li><li>Clean, tested code</li></ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Get in Touch</h2>
+    <p class="section-sub">Open to collaborating on interesting problems and projects.</p>
+    <div class="cta">
+      <a class="btn btn-primary" href="mailto:dsun2089@gmail.com">Email me</a>
+      <a class="btn btn-ghost" href="https://github.com/das-cyber428" target="_blank" rel="noopener">GitHub ↗</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="wrap">
+  <span>© <span id="year"></span> Sun Das</span>
+  <span>Built from this repo's <a href="stats.json" target="_blank" rel="noopener">stats.json</a></span>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+
+  fetch('stats.json')
+    .then(function(r){ return r.json(); })
+    .then(function(data){
+      var lc = data.leetcode || {};
+      var easy = lc.easy || 0, medium = lc.medium || 0, hard = lc.hard || 0;
+      var total = lc.solved || (easy + medium + hard);
+      var max = Math.max(easy, medium, hard, 1);
+
+      document.getElementById('stat-total').textContent = total;
+      document.getElementById('stat-easy').textContent = easy;
+      document.getElementById('stat-medium').textContent = medium;
+      document.getElementById('stat-hard').textContent = hard;
+
+      document.getElementById('count-easy').textContent = easy;
+      document.getElementById('count-medium').textContent = medium;
+      document.getElementById('count-hard').textContent = hard;
+
+      requestAnimationFrame(function(){
+        document.getElementById('fill-easy').style.width = (easy / max * 100) + '%';
+        document.getElementById('fill-medium').style.width = (medium / max * 100) + '%';
+        document.getElementById('fill-hard').style.width = (hard / max * 100) + '%';
+      });
+    })
+    .catch(function(){
+      // stats.json not reachable (e.g. opened via file://) — fall back to static counts.
+      var fallback = {total:27, easy:7, medium:13, hard:7};
+      document.getElementById('stat-total').textContent = fallback.total;
+      document.getElementById('stat-easy').textContent = fallback.easy;
+      document.getElementById('stat-medium').textContent = fallback.medium;
+      document.getElementById('stat-hard').textContent = fallback.hard;
+      document.getElementById('count-easy').textContent = fallback.easy;
+      document.getElementById('count-medium').textContent = fallback.medium;
+      document.getElementById('count-hard').textContent = fallback.hard;
+      var max = fallback.medium;
+      document.getElementById('fill-easy').style.width = (fallback.easy / max * 100) + '%';
+      document.getElementById('fill-medium').style.width = (fallback.medium / max * 100) + '%';
+      document.getElementById('fill-hard').style.width = (fallback.hard / max * 100) + '%';
+    });
+</script>
+
+</body>
+</html>
