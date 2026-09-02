@@ -36,12 +36,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [0874-walking-robot-simulation](https://github.com/das-cyber428/leetcode/tree/master/0874-walking-robot-simulation) |
 | [1545-find-kth-bit-in-nth-binary-string](https://github.com/das-cyber428/leetcode/tree/master/1545-find-kth-bit-in-nth-binary-string) |
 | [2751-robot-collisions](https://github.com/das-cyber428/leetcode/tree/master/2751-robot-collisions) |
 ## Array
 |  |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/das-cyber428/leetcode/tree/master/0004-median-of-two-sorted-arrays) |
+| [0874-walking-robot-simulation](https://github.com/das-cyber428/leetcode/tree/master/0874-walking-robot-simulation) |
 | [1140-stone-game-ii](https://github.com/das-cyber428/leetcode/tree/master/1140-stone-game-ii) |
 | [1406-stone-game-iii](https://github.com/das-cyber428/leetcode/tree/master/1406-stone-game-iii) |
 | [1582-special-positions-in-a-binary-matrix](https://github.com/das-cyber428/leetcode/tree/master/1582-special-positions-in-a-binary-matrix) |
@@ -143,6 +145,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0874-walking-robot-simulation](https://github.com/das-cyber428/leetcode/tree/master/0874-walking-robot-simulation) |
 | [1980-find-unique-binary-string](https://github.com/das-cyber428/leetcode/tree/master/1980-find-unique-binary-string) |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/das-cyber428/leetcode/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
 | [3090-maximum-length-substring-with-two-occurrences](https://github.com/das-cyber428/leetcode/tree/master/3090-maximum-length-substring-with-two-occurrences) |
