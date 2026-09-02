@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/das-cyber428/leetcode/tree/master/1878-get-biggest-three-rhombus-sums-in-a-grid) |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/das-cyber428/leetcode/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/das-cyber428/leetcode/tree/master/3296-minimum-number-of-seconds-to-make-mountain-height-zero) |
+| [3875-construct-uniform-parity-array-i](https://github.com/das-cyber428/leetcode/tree/master/3875-construct-uniform-parity-array-i) |
 ## String
 |  |
 | ------- |
@@ -59,6 +60,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3567-minimum-absolute-difference-in-sliding-submatrix](https://github.com/das-cyber428/leetcode/tree/master/3567-minimum-absolute-difference-in-sliding-submatrix) |
 | [3643-flip-square-submatrix-vertically](https://github.com/das-cyber428/leetcode/tree/master/3643-flip-square-submatrix-vertically) |
 | [3731-find-missing-elements](https://github.com/das-cyber428/leetcode/tree/master/3731-find-missing-elements) |
+| [3875-construct-uniform-parity-array-i](https://github.com/das-cyber428/leetcode/tree/master/3875-construct-uniform-parity-array-i) |
 ## Matrix
 |  |
 | ------- |
