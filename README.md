@@ -50,6 +50,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1406-stone-game-iii](https://github.com/das-cyber428/leetcode/tree/master/1406-stone-game-iii) |
 | [1582-special-positions-in-a-binary-matrix](https://github.com/das-cyber428/leetcode/tree/master/1582-special-positions-in-a-binary-matrix) |
 | [1594-maximum-non-negative-product-in-a-matrix](https://github.com/das-cyber428/leetcode/tree/master/1594-maximum-non-negative-product-in-a-matrix) |
+| [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/das-cyber428/leetcode/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 | [1727-largest-submatrix-with-rearrangements](https://github.com/das-cyber428/leetcode/tree/master/1727-largest-submatrix-with-rearrangements) |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/das-cyber428/leetcode/tree/master/1878-get-biggest-three-rhombus-sums-in-a-grid) |
 | [1886-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/das-cyber428/leetcode/tree/master/1886-determine-whether-matrix-can-be-obtained-by-rotation) |
@@ -109,6 +110,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1140-stone-game-ii](https://github.com/das-cyber428/leetcode/tree/master/1140-stone-game-ii) |
+| [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/das-cyber428/leetcode/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/das-cyber428/leetcode/tree/master/1878-get-biggest-three-rhombus-sums-in-a-grid) |
 | [2906-construct-product-matrix](https://github.com/das-cyber428/leetcode/tree/master/2906-construct-product-matrix) |
 | [3070-count-submatrices-with-top-left-element-and-sum-less-than-k](https://github.com/das-cyber428/leetcode/tree/master/3070-count-submatrices-with-top-left-element-and-sum-less-than-k) |
@@ -150,6 +152,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0874-walking-robot-simulation](https://github.com/das-cyber428/leetcode/tree/master/0874-walking-robot-simulation) |
+| [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/das-cyber428/leetcode/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 | [1980-find-unique-binary-string](https://github.com/das-cyber428/leetcode/tree/master/1980-find-unique-binary-string) |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/das-cyber428/leetcode/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
 | [3090-maximum-length-substring-with-two-occurrences](https://github.com/das-cyber428/leetcode/tree/master/3090-maximum-length-substring-with-two-occurrences) |
@@ -163,6 +166,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/das-cyber428/leetcode/tree/master/0004-median-of-two-sorted-arrays) |
+| [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/das-cyber428/leetcode/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/das-cyber428/leetcode/tree/master/3296-minimum-number-of-seconds-to-make-mountain-height-zero) |
 ## Nim Game
 |  |
@@ -183,6 +187,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sliding Window
 |  |
 | ------- |
+| [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/das-cyber428/leetcode/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 | [3090-maximum-length-substring-with-two-occurrences](https://github.com/das-cyber428/leetcode/tree/master/3090-maximum-length-substring-with-two-occurrences) |
 ## Enumeration
 |  |
